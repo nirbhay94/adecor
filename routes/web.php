@@ -19,3 +19,4 @@ Route::get('/about', 'HomeController@about')->name('about');
 Route::get('/project', 'HomeController@project')->name('project');
 Route::get('/service', 'HomeController@service')->name('service');
 Route::get('/contact', 'HomeController@contact')->name('contact');
+Route::post('/contact', 'ContactController@store')->name('contact_form');

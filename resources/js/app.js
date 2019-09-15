@@ -1,4 +1,7 @@
-require('./pastel/jquery-3.3.1.min');
+// global.$ = global.jQuery =  require('./pastel/jquery-3.3.1.min');
+
+window.$ = window.jQuery = require('jquery');
+
 require('./pastel/popper');
 require('./pastel/bootstrap.min');
 require('./pastel/stellar');
